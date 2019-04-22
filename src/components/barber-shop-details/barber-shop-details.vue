@@ -26,7 +26,9 @@
         <a class="phone" href="tel:186585858586"><i class="cubeic-phone"></i></a>
       </div>
     </div>
-    <tab :tabs="tabs"></tab>
+    <div class="tab-wrapper">
+      <tab :tabs="tabs"></tab>
+    </div>
   </div>
 </template>
 
@@ -60,7 +62,7 @@ export default {
           }
         },
         {
-          label: '理发师',
+          label: '发型师',
           component: Barber,
           data: {
             seller: []
@@ -175,6 +177,13 @@ export default {
           .no-wrap();
         }
       }
+    }
+    .tab-wrapper {
+      position: absolute;
+      top: 268px;
+      left: 0;
+      right: 0;
+      bottom: 0;
     }
   }
 </style>

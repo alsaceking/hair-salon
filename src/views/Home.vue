@@ -124,6 +124,7 @@ export default {
           flex: 0 0 100px;
           width: 100px;
           padding-right: 20px;
+          font-size: 0;
           img {
             width: 100px;
             height: 100px;
