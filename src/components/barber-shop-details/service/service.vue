@@ -19,6 +19,9 @@
         </ul>
       </cube-scroll>
     </div>
+    <div class="button-wrapper">
+
+    </div>
   </div>
 </template>
 
@@ -140,6 +143,9 @@ export default {
           }
         }
       }
+    }
+    .button-wrapper {
+      height: 48px;
     }
   }
 </style>

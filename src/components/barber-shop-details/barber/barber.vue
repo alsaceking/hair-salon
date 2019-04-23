@@ -24,14 +24,18 @@ export default {
 
 <style scoped lang="less">
   .barber {
-    li {
-      width: 48%;
-      height: 100px;
-      margin-bottom: 10px;
-      background: skyblue;
-      display: inline-block;
-      &:nth-child(even) {
-        margin-left: 4%;
+    width: 100%;
+    ul {
+      overflow: hidden;
+      li {
+        width: 48%;
+        height: 100px;
+        margin-bottom: 10px;
+        background: skyblue;
+        float: left;
+        &:nth-child(even) {
+          margin-left: 4%;
+        }
       }
     }
   }
